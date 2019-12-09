@@ -1,8 +1,9 @@
-## ARC209-R1 - [REPEAT 1] Running lean architectures: How to be cost-effective on AWS
+[Talk List](./README.md)
+# ARC209-R1 - [REPEAT 1] Running lean architectures: How to be cost-effective on AWS
 
 Everybody can save money on AWS by optimizing your architecture! This session reviews a wide range of cost-optimization strategies, featuring real-world examples. In addition to Reserved Instances, we have a special focus on Spot Instances to get a discount of up to 90 percent. We also talk about leveraging AWS Auto Scaling, caching and offloading content to Amazon CloudFront to reduce backend load, and much more. Running serverless? Learn how to cut costs on serverless through minimizing AWS Lambda execution time and maximizing networking throughput. Additionally, we cover optimizing training and inference costs for machine learning on AWS.
 
-### AWS business model
+## AWS business model
 - Flywheel
     - Reduce prices
     - More customers
@@ -12,7 +13,7 @@ Everybody can save money on AWS by optimizing your architecture! This session re
     - Lower infrastructure costs
     - Repeat
 
-AWS is for builders
+### AWS is for builders
 - Architectural flexibility is biggest strength
 - Main goal is to avoid unnecessary stuff
 - OK to start with minimum viable architecture, but then need to get rid of unnecessary resources and inefficiencies
@@ -28,7 +29,7 @@ AWS is for builders
 - New Model: "Cattle"
     - ![](./Photos/ARC209/IMG_1948.JPG)
 
-### Measure
+## Measure
 - AWS billing and cost management dashboard
     - complete picture of all of your costs in every dimension, as well as budgeting feature
     - Cost explorer now as an API that can be integrated with monitoring systems
@@ -63,10 +64,10 @@ AWS is for builders
     - Easy to manage through spotfleet
     - Or EC2 autoscaling
 
-### Real-world customer examples
+## Real-world customer examples
 HERE Technologies
 
-#### Challenges facing traditional RI Purchasing Strategy
+### Challenges facing traditional RI Purchasing Strategy
 - Large environment
     - 500 accounts operating independently
     - over 10 million unique EC2 instances
@@ -75,7 +76,7 @@ HERE Technologies
     - Initially only 10% overall reservation coverage
 - Limited Reporting
 
-#### New Approach - Proposal to Centralize
+### New Approach - Proposal to Centralize
 - Finance engagement
     - Centralize purchasing of reservations to single cost center
     - Structure cross-charge methodology
@@ -88,7 +89,7 @@ HERE Technologies
     - Vacancy needs analysis and mitigation
         - Python script used as Vacancy Solver (Replaced by Cloudability)
 
-#### Time for action
+### Time for action
 - Fleetwide analysis
     - Incorporated Green Zone / Red Zone Approach
         - Green Zone: > X% Instance family usage in prime regions
@@ -109,7 +110,7 @@ HERE Technologies
     - Teams get alerted when issues hit R&D accounts
         - We do not have NOC monitoring on R&D accounts
 
-#### Results
+### Results
 - RI Coverage
     - Greater than 80% coverage in yearh 1
     - Teams became cost aware
@@ -118,7 +119,7 @@ HERE Technologies
 - Savings
     - In 3 years, $50M Saved, $150 Cost Avoided
 
-#### Lessons learned
+### Lessons learned
 - Spread monthly purchases evenly
     - Allows for beter course correction
 - Resist exceptions
@@ -130,7 +131,7 @@ HERE Technologies
 - FinOps is the goal
     - Program will evolve
 
-### AWS Savings Plans
+## AWS Savings Plans
 - A new flexible prising model
 - Save up to 72% on EC2 and Fargate
 - Commit to a consistent usage (e.g. $10/hour) over 1 to 3 years
@@ -147,7 +148,7 @@ HERE Technologies
         - Lowest Prices
 - AWS cost explorer will help
 
-### Serverless Computing saving strategies
+## Serverless Computing saving strategies
 - Never pay for idle time
 - But must avoid wait cycles within lambda to be efficient
 - Use non-blocking code instead
@@ -165,7 +166,7 @@ HERE Technologies
         - Can scale down backend
     - Use Case: ![](./Photos/ARC209/IMG_1952.JPG)
 
-### Build efficiently
+## Build efficiently
 - Avoid unnecesary heavy lifting
     - Leverage existing services
         - Use AWS database services
@@ -173,7 +174,7 @@ HERE Technologies
         - Use AWS analytics services
         - Don't reinvent the wheel
 
-### Saving on AI/ML (SageMaker)
+## Saving on AI/ML (SageMaker)
 - Turn off unused instances
     - Amazon Sagemaker notebooks
 - Automate everything
@@ -205,7 +206,7 @@ HERE Technologies
     - Use eslastic inference for up to 75% lower costs
     - USe auto scaling: scale out first, then scale up
 
-### Summary
+## Summary
 - Use EC2 spot instances, RIs, and savings plans
 - Turn off unused instances
 - Automate: Use Amazon EC2 auto scaling and more

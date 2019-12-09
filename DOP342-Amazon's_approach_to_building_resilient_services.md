@@ -1,8 +1,9 @@
-## DOP342-R - [REPEAT] Amazon's approach to building resilient services
+[Talk List](./README.md)
+# DOP342-R - [REPEAT] Amazon's approach to building resilient services
 
 One of the biggest challenges of building services and systems is predicting the future. Changing load, business requirements, and customer behavior can all change in unexpected ways. In this talk, we look at how AWS builds, monitors, and operates services that handle the unexpected. Learn how to make your own services handle a changing world, from basic design principles to patterns you can apply today.
 
-### Ownership: closing the DevOps loop
+## Ownership: closing the DevOps loop
 The Loop
 - Build
 - Fail*
@@ -21,12 +22,12 @@ How AWS does this
 - Correction of Error (COE) revies connect broad sets of builders and operators
 - Centralized Ops teams can work, but need to close loop for people and for technology
 
-### Operational Safety
+## Operational Safety
 > How and why should the operators have compensated for design errors they did not know about?
-#### Kind Learning Environments
+### Kind Learning Environments
 - Things we learn match environment well
 - More experience means better predictions and better judgement
-#### Wicked Learning Environments
+### Wicked Learning Environments
 - Things we learn don't match the environment
 - Our expeirence leads us to do the wrong thing
 
@@ -41,7 +42,7 @@ What does AWS do?
     - They no longer work here (that is, no need to be worried)
     - Leadership must reject this thinking
 
-### Service Stability
+## Service Stability
 What it means to be stable at scale
 - The moment the system starts experincing instability, it will not stop without correction
 - Example loop
@@ -58,7 +59,7 @@ What it means to be stable at scale
     - Limit retries if possible
     - End-to-End back pressure
 
-### Jitter
+## Jitter
 Randomness added to reduce spiky traffic
 - choose a random-ish delay for retries to better utilize the system
 - What is the best way to add Jitter?
@@ -71,4 +72,5 @@ Randomness added to reduce spiky traffic
         - large percent of requests may happen in first second of the minute (high average, but poor utilization), consider spreading that work out, especially if an end user is not waiting for the result
     - Consider adding jitter to all work
 
-Success requires culture and technology
+## Takeaway
+Success requires both culture and technology

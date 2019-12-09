@@ -1,8 +1,9 @@
-## ANT418 - Deep dive and best practices for Amazon Redshift
+[Talk List](./README.md)
+# ANT418 - Deep dive and best practices for Amazon Redshift
 
 In this session, we take an in-depth look at best practices for data warehousing with Amazon Redshift. We show you the best way to analyze all your data, inside and outside your data warehouse, without moving the data, which helps you gain deeper insights for running your business. We also cover best practices for how to design optimal schemas, load data efficiently, and optimize your queries to deliver high throughput and performance.
 
-### Redshit facts 
+## Redshit facts 
 - Max out at 8.2 PB of storage
 - Massive, parallel, shared
 - nothing columnar architecture

@@ -1,16 +1,17 @@
-## ARC203 - Innovation at speed
+[Talk List](./README.md)
+# ARC203 - Innovation at speed
 
 What does it take to innovate quickly? In this session, we address how blockers to innovation, such as culture, skills, antiquated processes, and board-level concerns, can stand in the way of business agility. We map out a pathway to digital transformation, including new metrics for success, integration of real-world best practices from enterprises, and the most effective organizational patterns, as we integrate the business with development and operations.
 
 "Cloud for CEOs"
 
-### Old world IT (annual cycle)
+## Old world IT (annual cycle)
 - Marketing (TV + Radio)
 - Sales (Brick and Mortar)
 - Employees at work
 - Factories and Supply Chains
 
-### New world IT
+## New world IT
 - Online marketing and social media
 - mobile employees 
 - IoT connected things
@@ -21,15 +22,15 @@ What does it take to innovate quickly? In this session, we address how blockers 
 
 Automation and "real-time"
 
-### New Needs
+## New Needs
 - Personalization - everyones experience is different
 - Customer Analytics
 - New channels direct to customer
 - More things, more scale, rapid (continuous) change
 
-### Blockers for innovation
+## Blockers for innovation
 
-#### Culture - leadership systems and feedback
+### Culture - leadership systems and feedback
 - Centralized, slow decision-making
 - lack of trust
 - inflexible policies and processes
@@ -45,14 +46,14 @@ Automation and "real-time"
     - _Ahead in the cloud_ - Stephen Orban
     - _A seat at the Table_ and _War and Peace and IT_ - Mark Schwartz
 
-#### Skills - Training and Compensation
+### Skills - Training and Compensation
 - Train existing staff on cloud tech
 - Fund pathfinder teams
 - Be prepared to create incentives to keep the best people after training
 - "Systemic incentive for employees to learn the next technologies that the company will need"
 - _Powerful: Building a culture of Freedom and Responsibility_ by Patty McCord
 
-#### Organization - Move from projects to product teams
+### Organization - Move from projects to product teams
 - Long-term product ownership
 - Continuous delivery
 - DevOps and "run what you wrote"
@@ -70,7 +71,7 @@ Automation and "real-time"
 - Operations
     - Automated global support
     
-#### Risk - Finance - Capex vs. opex
+### Risk - Finance - Capex vs. opex
 - Capitalized data center to expensed cloud
 - Capitalized developmetn, expensed operations, to combined DevOps
 - Plan ahead, don't surprise the CFO or your shareholders
@@ -85,7 +86,7 @@ Automation and "real-time"
 - Compensation policy isn't flexible enough ("Best practice" is low risk)
 - Successful Board Patterns ![](./Photos/ARC203/IMG_1875.JPG)
     
-### Time to value is what matters
+## Time to value is what matters
 - Do some work
 - Time elapses
 - Value to customer
@@ -105,7 +106,7 @@ Automation and "real-time"
     - ![](./Photos/ARC203/IMG_1883.JPG)
 
 
-### How do we get there?
+## How do we get there?
 - Measure time everywhere
 - Learn to do small things quickly
     - Create a fast path for simple and safe changes
@@ -119,7 +120,7 @@ Automation and "real-time"
 
 "Learn to do simple things quickly to unblock innovation"
 
-### Pathway for Innovation
+## Pathway for Innovation
 - Pathway
     - Speed => Time to Value
     - Scale => Distributed Optimized Capacity

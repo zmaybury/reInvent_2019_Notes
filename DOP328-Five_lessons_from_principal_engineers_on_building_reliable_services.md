@@ -1,9 +1,10 @@
-## DOP328 - Five lessons from principal engineers on building reliable services
+[Talk List](./README.md)
+# DOP328 - Five lessons from principal engineers on building reliable services
 
 In this session, five Amazon principal engineers share hard-learned lessons from their experiences building reliable services at Amazon. Join Andrew Certain, Becky Weiss, Colm MacCarthaigh, David Yanacek, and Marc Brooker as they share personal stories that highlight a current Amazon best practice. The engineers discuss how Amazon uses timeouts, how we think about back-offs and retries, our approach to taking dependencies, how we measure performance, and how we use shuffle sharding.
 
 
-### Monitoring with percentiles
+## Monitoring with percentiles
 - P-four-nines = 99.99th Percentile
     - Value that is >= to 99.99% Percentile
 - Latency versus Abandon Rate
@@ -13,7 +14,7 @@ In this session, five Amazon principal engineers share hard-learned lessons from
 - Cloudwatch supports percentiles
 - embedded-metric format log in Lambda
 
-### Static stability
+## Static stability
 - Dependencies, we all have them
 - Dependencies reduce availability
 - Which is more important, control or data plane?
@@ -27,7 +28,7 @@ In this session, five Amazon principal engineers share hard-learned lessons from
     - Use static stability techniques to avoid changing behavior during an impairment of your dependency
     - Dependency != Destiny
 
-### Shuffle sharding
+## Shuffle sharding
 - First class experience on shared (economies of scale) infrastructure
 - horizontally scaled infrastructure, even distribution. 
 - failure storm can cascade across other workers
@@ -46,7 +47,7 @@ In this session, five Amazon principal engineers share hard-learned lessons from
     - works for servers, queues, and other resources
     - needs a routing mechanism: Per-customer DNS names, per-resource DNS names, or a shuffle sharding aware router
 
-### Retries, backoff, and jitter
+## Retries, backoff, and jitter
 - Failures happen, we want our system to be more available than a single node
 - Resiliency through redundancy
 - Retries
@@ -66,7 +67,7 @@ In this session, five Amazon principal engineers share hard-learned lessons from
     - computers are precise and humans like round numbers, so spikes in performance are likely
     - some services will jitter their heap size (not just for time)
 
-### Meta lesson: Learn from each other
+## Meta lesson: Learn from each other
 - Written communication can be an advantage over a talk
     - Blog Posts
     - Papers

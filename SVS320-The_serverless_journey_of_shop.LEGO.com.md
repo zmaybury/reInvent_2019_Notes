@@ -1,8 +1,9 @@
-## SVS320-R - [REPEAT] The serverless journey of shop.LEGO.com
+[Talk List](./README.md)
+# SVS320-R - [REPEAT] The serverless journey of shop.LEGO.com
 
 Connecting the LEGO play experience with millions of people requires an innovative platform. This has fueled the cloud migration of the legacy e-commerce application. In this session, we walk you through the principles, the approach, the learnings, and of course the serverless technologies that made the vision a reality. We cover multiple real-world use cases such as the integration of the e-commerce platform with the tax system, and the implementation of an event-streaming platform.
 
-### How it all started
+## How it all started
 - Monolith
 - Oracle ATG, SAP, and Tax Platform
 - Then Elastic Beantalk container with Node.js + React
@@ -12,7 +13,7 @@ Connecting the LEGO play experience with millions of people requires an innovati
 - SaaS tax system was introduced, utilizing API gateway as interface with Lambda 
 - Black Friday 2018 - no issues
 
-### A journey through patterns
+## A journey through patterns
 - Atomic request-response API
     - ![](./Photos/SVS320/IMG_1909.JPG)
     - Use Case: Add item to shopping basket
@@ -54,7 +55,7 @@ Connecting the LEGO play experience with millions of people requires an innovati
     - Use Case: Checkout event processing
         - ![](./Photos/SVS320/IMG_1931.JPG)
 
-### Takeaways
+## Takeaways
 - Look for something simple to begin with
 - Implement automated integration tests
     - Don't spend time mocking AWS amazon services

@@ -1,8 +1,9 @@
-## GAM301 - How Rovio teaches Angry Birds to fly in the cloud using ML
+[Talk List](./README.md)
+# GAM301 - How Rovio teaches Angry Birds to fly in the cloud using ML
 
 On Angry Birds’s tenth birthday, join Rovio Entertainment to learn how one of the world’s most recognizable game franchises came to life with the help of AWS Cloud services and continues to entertain millions of gamers using machine learning. In this session, David Mason (SVP of technology) and Asko Relas (senior data engineer) show how Rovio supports millions of players worldwide and serves thousands of requests per second. Discover how, with four billion analytic events captured per day, Rovio uses machine learning to predict and deliver the perfect level of fun for players.
 
-### Beacon: Our cloud services
+## Beacon: Our cloud services
 - realized need for infrastructure to manage payments and identity, as well as promotions and analytics
 - Today: 
     - `> 1B player accounts`
@@ -22,7 +23,7 @@ On Angry Birds’s tenth birthday, join Rovio Entertainment to learn how one of 
 - Game server microservices
     - ![](./Photos/GAM301/IMG_1938.JPG)
 
-### Our machine learning (ML) story
+## Our machine learning (ML) story
 - ML/AI in gaming
     - ![](./Photos/GAM301/IMG_1939.JPG)
 - Goal is to build games for the individual player
@@ -31,7 +32,7 @@ On Angry Birds’s tenth birthday, join Rovio Entertainment to learn how one of 
     - 2016: Using churn prediction to improve level funnel
     - 2018: LTV prediction in profiles, user specific app install propensity prediction for cross-promoton, anomoly detection
 
-### Use case: reinforcement learning for level difficulty prediction
+## Use case: reinforcement learning for level difficulty prediction
 - Project overview
     - Designing the level funnel of a puzzle game is a balancing act
     - Prediction (automation) allows cutting down time on manual play testing
@@ -90,7 +91,7 @@ On Angry Birds’s tenth birthday, join Rovio Entertainment to learn how one of 
     - Parallelization is key to implementing fast enough RL for business use
     - Next Step: Procedural content generation?
 
-### Takeaways
+## Takeaways
 - Put the player at the center
 - Analytics is foundational
 - Have vision, experiment, learn, productize
